@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail2">
+
+        <EditText
+            android:id="@+id/ecg"
+            android:layout_width="331dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="Resting ECG results (values 0,1,2)"
+            android:inputType="number"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+        <EditText
+            android:id="@+id/Max_hr"
+            android:layout_width="331dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="maximum heart rate achieved"
+            android:inputType="number"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ecg"/>
+
+        <EditText
+            android:id="@+id/Induced_angina"
+            android:layout_width="331dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="exercise induced angina"
+            android:inputType="number"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Max_hr"/>
+
+        <EditText
+            android:id="@+id/oldpeak"
+            android:layout_width="331dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="OldPeak"
+            android:inputType="number"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Induced_angina"/>
+
+        <EditText
+            android:id="@+id/slope"
+            android:layout_width="331dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="slope of the peak exercise ST segment"
+            android:inputType="number"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/oldpeak"/>
+        <EditText
+            android:id="@+id/Vessels"
+            android:layout_width="331dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="number of major vessels (0-3) "
+            android:inputType="number"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/slope"/>
+
+        <EditText
+            android:id="@+id/thal"
+            android:layout_width="331dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edit"
+            android:inputType="number"
+            android:hint="thal (0,1,2,3)"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Vessels"/>
+
+        <Button
+            android:id="@+id/next_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/thal"
+            android:layout_marginTop="10dp"
+            android:text="Next"/>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

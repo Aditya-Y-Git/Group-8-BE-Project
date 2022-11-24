@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "289179887060",
+    "firebase_url": "https://beproject-b59cd-default-rtdb.firebaseio.com",
+    "project_id": "beproject-b59cd",
+    "storage_bucket": "beproject-b59cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289179887060:android:8df5ca4fa8e88f3b4ae241",
+        "android_client_info": {
+          "package_name": "com.hacktoroot.heartfly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289179887060-33d6aapcs3huvq3rnr3o2ri3akt48ghc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbAoQpnO61O6Zlxhw2ZoRwJ4SeuURvhIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289179887060-33d6aapcs3huvq3rnr3o2ri3akt48ghc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

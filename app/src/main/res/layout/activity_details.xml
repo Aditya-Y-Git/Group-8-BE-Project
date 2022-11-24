@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details">
+
+    <TextView
+        android:id="@+id/detail_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please provide with some Details"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/age_P"
+        android:layout_width="331dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edit"
+        android:hint="Age"
+        android:inputType="number"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detail_text"/>
+
+
+    <EditText
+        android:id="@+id/gender_P"
+        android:layout_width="331dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edit"
+        android:hint="Gender (Male - 1 / Female - 0)"
+        android:inputType="number"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/age_P"
+        />
+
+    <EditText
+        android:id="@+id/cheastType"
+        android:layout_width="331dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edit"
+        android:hint="Chest Type (0,1,2)"
+        android:inputType="number"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gender_P"/>
+
+    <EditText
+        android:id="@+id/resting_blood"
+        android:layout_width="331dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edit"
+        android:hint="Resting blood pressure"
+        android:inputType="number"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cheastType"/>
+
+
+    <EditText
+        android:id="@+id/ch"
+        android:layout_width="331dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_edit"
+        android:hint="Serum Cholesterol (in mg/dl)"
+        android:inputType="number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resting_blood">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/fbs"
+        android:layout_width="331dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edit"
+        android:hint="Fasting Blood sugar (mg/dl)"
+        android:inputType="number"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ch">
+
+    </EditText>
+
+
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fbs"
+        android:layout_marginTop="10dp"
+        android:text="Next"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
