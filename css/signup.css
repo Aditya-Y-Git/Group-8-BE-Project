@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #66fcf1;
+  font-family: Arial, Helvetica, sans-serif;
+  /* height: 100vh; */
+}
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: #1f2833;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #c5c6c7;
+  letter-spacing: 1.5px;
+}
+.signup {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* border: 2px solid black; */
+  width: 950px;
+  margin-left: 290px;
+  /* background: white; */
+}
+.input {
+  padding: 7px;
+}
+.title {
+  margin-left: 360px;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+.title1,
+.title2,
+.title3,.title4 {
+  margin-top: 10px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+input,
+textarea {
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 7px;
+  font-size: 15px;
+}
+label {
+  margin-left: 30px;
+  font-size: 15px;
+}
+.gender {
+  display: flex;
+  padding: 10px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+.input1 {
+  margin-top: 10px;
+}
+.input1 input {
+  width: 300px;
+}
+.input2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+button{
+  padding: 7px;
+  background-color: aqua;
+  border-radius: 5px;
+  width: 15vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
+.login{
+  display: flex;
+  justify-content: center   ;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}

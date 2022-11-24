@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #66fcf1;
+  font-family: Arial, Helvetica, sans-serif;
+  /* height: 100vh; */
+}
+.container {
+  width: 100%;
+  /* height: 100vh; */
+}
+.navbar {
+  height: 7%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.home a {
+  text-decoration: none;
+  color: rgb(96, 222, 199);
+  padding: 15px;
+  font-size: 20px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+  padding: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(96, 222, 199);
+  font-size: 15px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+h2 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.patients {
+  /* width: 100%; */
+  padding: 20px;
+  /* display: flex; */
+}
+td,
+th {
+  width: 70vh;
+  border: 5px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+th {
+  background-color: palegreen;
+}
+td {
+  background-color: lightcyan;
+}
+a {
+  text-decoration: none;
+}
